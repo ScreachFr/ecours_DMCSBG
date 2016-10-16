@@ -1,0 +1,8 @@
+Authentification :
+	demandeConnexion() : void
+	afficherFormConnexion() : void
+	seConnecter(in login : String, in motDePasse : String) : Boolean
+	verifierLogin(in login : String) : Boolean
+	verifierMDP(in login : String, in motDePasse : String) : Boolean
+	login : "prof1", "prof2"
+	motDePasse : "pa$$word", "password"
