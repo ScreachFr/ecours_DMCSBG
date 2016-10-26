@@ -1792,9 +1792,6 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_tnxZkJCNEea-79eyQkO5_Q" name="ReceiveOperationEvent12" operation="_nPEyIJCNEea-79eyQkO5_Q"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_uhRX8JCOEea-79eyQkO5_Q" name="SendOperationEvent13" operation="_-EwwcJCNEea-79eyQkO5_Q"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_uhR_AJCOEea-79eyQkO5_Q" name="ReceiveOperationEvent13" operation="_-EwwcJCNEea-79eyQkO5_Q"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_hAJ08JCREeaymZkpegEMjQ" name="PrimitiveTypes">
-        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hAKcAJCREeaymZkpegEMjQ" name="str"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jvoDsJRGEea0kNGd8nrleA" name="SendOperationEvent14" operation="_FRBBoJRFEea0kNGd8nrleA"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jvoqwJRGEea0kNGd8nrleA" name="ReceiveOperationEvent14" operation="_FRBBoJRFEea0kNGd8nrleA"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_30fOQJRIEea0kNGd8nrleA" name="SNGererUE">
@@ -5491,7 +5488,7 @@
           <message xmi:id="__T_MQJR1Eeal1597JR1IjQ" name="\Non spécifié\" messageSort="reply" receiveEvent="__T_zUJR1Eeal1597JR1IjQ" sendEvent="__T-lMJR1Eeal1597JR1IjQ" connector="_v30ZMJR1Eeal1597JR1IjQ"/>
           <message xmi:id="_b-_YIJR2Eeal1597JR1IjQ" name="\Non spécifié\" receiveEvent="_b-_YIpR2Eeal1597JR1IjQ" sendEvent="_b-_YIZR2Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
           <message xmi:id="_b-__MpR2Eeal1597JR1IjQ" name="\Non spécifié\" messageSort="reply" receiveEvent="_b-__M5R2Eeal1597JR1IjQ" sendEvent="_b-__MZR2Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
-          <message xmi:id="_g0OBsJR2Eeal1597JR1IjQ" name="\Non spécifié\" receiveEvent="_g0OowZR2Eeal1597JR1IjQ" sendEvent="_g0OowJR2Eeal1597JR1IjQ" connector="_v30ZMJR1Eeal1597JR1IjQ">
+          <message xmi:id="_g0OBsJR2Eeal1597JR1IjQ" name="confirmerSuppressionCommentaires" receiveEvent="_g0OowZR2Eeal1597JR1IjQ" sendEvent="_g0OowJR2Eeal1597JR1IjQ" connector="_v30ZMJR1Eeal1597JR1IjQ">
             <argument xmi:type="uml:OpaqueExpression" xmi:id="_j8y8MJR2Eeal1597JR1IjQ">
               <eAnnotations xmi:id="_j8y8MZR2Eeal1597JR1IjQ" source="Parameter" references="_Qza3kJR2Eeal1597JR1IjQ"/>
               <language></language>
@@ -5529,7 +5526,7 @@
             </argument>
           </message>
           <message xmi:id="_8nab0JR2Eeal1597JR1IjQ" name="\Non spécifié\" messageSort="reply" receiveEvent="_8nab0ZR2Eeal1597JR1IjQ" sendEvent="_8nZ0wZR2Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
-          <message xmi:id="_bXp14JR3Eeal1597JR1IjQ" name="\Non spécifié\" receiveEvent="_bXqc8JR3Eeal1597JR1IjQ" sendEvent="_bXp14ZR3Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
+          <message xmi:id="_bXp14JR3Eeal1597JR1IjQ" name="afficherConfirmationSuppressionCommentaire" receiveEvent="_bXqc8JR3Eeal1597JR1IjQ" sendEvent="_bXp14ZR3Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
           <message xmi:id="_bXrEAJR3Eeal1597JR1IjQ" name="\Non spécifié\" messageSort="reply" receiveEvent="_bXrEAZR3Eeal1597JR1IjQ" sendEvent="_bXqc8pR3Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
           <message xmi:id="_XfbfwJR6Eeal1597JR1IjQ" name="\Non spécifié\" receiveEvent="_XfcG0ZR6Eeal1597JR1IjQ" sendEvent="_XfcG0JR6Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ"/>
           <message xmi:id="_Xfct4ZR6Eeal1597JR1IjQ" name="\Non spécifié\" messageSort="reply" receiveEvent="_Xfct4pR6Eeal1597JR1IjQ" sendEvent="_Xfct4JR6Eeal1597JR1IjQ" connector="_b-__NJR2Eeal1597JR1IjQ">
@@ -8286,9 +8283,6 @@
         <ownedAttribute xmi:id="_OZQ8Npt6EeaODptpfqxjYA" name="eCours" type="_OZN34Jt6EeaODptpfqxjYA"/>
         <ownedAttribute xmi:id="_OZQ8N5t6EeaODptpfqxjYA" name="Copie_1_eCours" type="_OZN34Jt6EeaODptpfqxjYA"/>
         <ownedAttribute xmi:id="_OZQ8OJt6EeaODptpfqxjYA" name="etudiant" type="_OZMpypt6EeaODptpfqxjYA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_OZT-gJt6EeaODptpfqxjYA" name="PrimitiveTypes">
-        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OZT-gZt6EeaODptpfqxjYA" name="str"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_OZUlkJt6EeaODptpfqxjYA" name="SNGererUE">
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_OZUlkZt6EeaODptpfqxjYA" name="Interaction1">
@@ -12773,7 +12767,194 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_OaBwMJt6EeaODptpfqxjYA" name="ECours">
-        <ownedOperation xmi:id="_OaBwMZt6EeaODptpfqxjYA" name="afficherFormulaireDeConnexion" visibility="private"/>
+        <ownedOperation xmi:id="_OaBwSJt6EeaODptpfqxjYA" name="afficherFormulaireAjoutCommentaires" visibility="private"/>
+        <ownedOperation xmi:id="_OaBwd5t6EeaODptpfqxjYA" name="demandeConnexion"/>
+        <ownedOperation xmi:id="_OaBwipt6EeaODptpfqxjYA" name="confirmerSuppressionCommentaires">
+          <ownedParameter xmi:id="_OaBwi5t6EeaODptpfqxjYA" name="commentaires">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwjJt6EeaODptpfqxjYA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwjZt6EeaODptpfqxjYA" value="1"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OaBwjpt6EeaODptpfqxjYA" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwkpt6EeaODptpfqxjYA" name="afficherConfirmationSuppressionCommentaires"/>
+        <ownedOperation xmi:id="_OaBwmJt6EeaODptpfqxjYA" name="afficherMessageErreur">
+          <ownedParameter xmi:id="_OaBwmZt6EeaODptpfqxjYA" name="notice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMJt6EeaODptpfqxjYA" memberEnd="_OZKNhJt6EeaODptpfqxjYA _OZKNjZt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMZt6EeaODptpfqxjYA" memberEnd="_OZKNkJt6EeaODptpfqxjYA _OZK0kpt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMpt6EeaODptpfqxjYA" memberEnd="_OZK0lZt6EeaODptpfqxjYA _OZLbpZt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQJt6EeaODptpfqxjYA" memberEnd="_OZLbopt6EeaODptpfqxjYA _OZMCsZt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQZt6EeaODptpfqxjYA" memberEnd="_OZMCtJt6EeaODptpfqxjYA _OZLbqJt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQpt6EeaODptpfqxjYA" memberEnd="_OZMCu5t6EeaODptpfqxjYA _OZKNgZt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQ5t6EeaODptpfqxjYA" memberEnd="_OZMCwZt6EeaODptpfqxjYA _OaBJJ5t6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIRJt6EeaODptpfqxjYA" memberEnd="_OZK0mJt6EeaODptpfqxjYA _OZMpwpt6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaMvUJt6EeaODptpfqxjYA" memberEnd="_OaBJIpt6EeaODptpfqxjYA _OZMpx5t6EeaODptpfqxjYA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IddZMJt8EeaODptpfqxjYA" name="ECours.itf">
+      <eAnnotations xmi:id="_IdeAQJt8EeaODptpfqxjYA" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_kcsEMJt8EeaODptpfqxjYA" type="Class" name="resumé">
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_ld2mQJt8EeaODptpfqxjYA" element="_NNDU0Jt8EeaODptpfqxjYA" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ld3NUJt8EeaODptpfqxjYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_ld3NUZt8EeaODptpfqxjYA" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ld3NUpt8EeaODptpfqxjYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ld30YJt8EeaODptpfqxjYA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ld30YZt8EeaODptpfqxjYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ld30Ypt8EeaODptpfqxjYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ld30Y5t8EeaODptpfqxjYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ld4bcJt8EeaODptpfqxjYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ld4bcZt8EeaODptpfqxjYA" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ld2mQZt8EeaODptpfqxjYA" x="396" y="264"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_ql_vUJt9EeaODptpfqxjYA" element="_ShMH8Jt8EeaODptpfqxjYA" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_qmAWYJt9EeaODptpfqxjYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_qmAWYZt9EeaODptpfqxjYA" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmA9cJt9EeaODptpfqxjYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmA9cZt9EeaODptpfqxjYA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmA9cpt9EeaODptpfqxjYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmA9c5t9EeaODptpfqxjYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qmA9dJt9EeaODptpfqxjYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qmBkgJt9EeaODptpfqxjYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_qmCLkJt9EeaODptpfqxjYA" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ql_vUZt9EeaODptpfqxjYA" x="13200" y="132" width="7352" height="5393"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_o-SVMJt-EeaODptpfqxjYA" element="_YZoiAJt8EeaODptpfqxjYA" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_o-S8QJt-EeaODptpfqxjYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_o-S8QZt-EeaODptpfqxjYA" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_o-S8Qpt-EeaODptpfqxjYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_o-TjUJt-EeaODptpfqxjYA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_o-TjUZt-EeaODptpfqxjYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_o-TjUpt-EeaODptpfqxjYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_o-TjU5t-EeaODptpfqxjYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_o-UKYJt-EeaODptpfqxjYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_o-UKYZt-EeaODptpfqxjYA" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o-SVMZt-EeaODptpfqxjYA" x="2772" y="6072" width="8542" height="8963"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_pgPLsJt-EeaODptpfqxjYA" element="_VwWyoJt8EeaODptpfqxjYA" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_pgPywJt-EeaODptpfqxjYA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_pgPywZt-EeaODptpfqxjYA" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_pgPywpt-EeaODptpfqxjYA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_pgQZ0Jt-EeaODptpfqxjYA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_pgQZ0Zt-EeaODptpfqxjYA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_pgQZ0pt-EeaODptpfqxjYA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_pgQZ05t-EeaODptpfqxjYA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_pgQZ1Jt-EeaODptpfqxjYA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_pgRA4Jt-EeaODptpfqxjYA" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pgPLsZt-EeaODptpfqxjYA" x="22440" y="528" width="7220" height="5393"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_FcDEYJuBEeahoODZduyQOw" element="_Ch944JuBEeahoODZduyQOw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_FcGHsJuBEeahoODZduyQOw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_FcGHsZuBEeahoODZduyQOw" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FcGuwJuBEeahoODZduyQOw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FcGuwZuBEeahoODZduyQOw" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FcHV0JuBEeahoODZduyQOw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FcHV0ZuBEeahoODZduyQOw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FcH84JuBEeahoODZduyQOw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FcH84ZuBEeahoODZduyQOw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FcIj8JuBEeahoODZduyQOw" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FcDEYZuBEeahoODZduyQOw" x="25212" y="6336" width="4838" height="3012"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_IIT2UJuBEeahoODZduyQOw" element="_4WeVQJuAEeahoODZduyQOw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IIVEcJuBEeahoODZduyQOw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_IIVEcZuBEeahoODZduyQOw" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_IIVEcpuBEeahoODZduyQOw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_IIVrgJuBEeahoODZduyQOw" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_IIWSkJuBEeahoODZduyQOw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_IIWSkZuBEeahoODZduyQOw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_IIWSkpuBEeahoODZduyQOw" type="AttributeCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_fQq5AJuBEeahoODZduyQOw" value="0.27883850437549723"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_IIW5oJuBEeahoODZduyQOw" type="OperationCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_fQrgEJuBEeahoODZduyQOw" value="0.7211614956245028"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_IIW5oZuBEeahoODZduyQOw" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIT2UZuBEeahoODZduyQOw" x="18876" y="7260" width="5500" height="3673"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_LRCh0JuBEeahoODZduyQOw" element="_JJYRwJuBEeahoODZduyQOw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_LRDv8JuBEeahoODZduyQOw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_LRDv8ZuBEeahoODZduyQOw" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_LRDv8puBEeahoODZduyQOw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_LREXAJuBEeahoODZduyQOw" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_LREXAZuBEeahoODZduyQOw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_LREXApuBEeahoODZduyQOw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_LREXA5uBEeahoODZduyQOw" type="AttributeCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_gX18cJuBEeahoODZduyQOw" value="0.19958777052559257"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_LRE-EJuBEeahoODZduyQOw" type="OperationCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_gX18cZuBEeahoODZduyQOw" value="0.8004122294744074"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_LRE-EZuBEeahoODZduyQOw" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LRCh0ZuBEeahoODZduyQOw" x="12012" y="10428" width="6161" height="4070"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_QW-g4JuBEeahoODZduyQOw" element="_N_Y-cJuBEeahoODZduyQOw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_QW_vAJuBEeahoODZduyQOw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_QW_vAZuBEeahoODZduyQOw" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QW_vApuBEeahoODZduyQOw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QW_vA5uBEeahoODZduyQOw" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QXA9IJuBEeahoODZduyQOw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QXBkMJuBEeahoODZduyQOw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QXBkMZuBEeahoODZduyQOw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QXBkMpuBEeahoODZduyQOw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QXCLQJuBEeahoODZduyQOw" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW-g4ZuBEeahoODZduyQOw" x="25080" y="10032" width="5367" height="2747"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_NNDU0Jt8EeaODptpfqxjYA" name="ICommentaires">
+        <ownedOperation xmi:id="_OaBwhpt6EeaODptpfqxjYA" name="supprimerCommentaires">
+          <ownedParameter xmi:id="_OaBwh5t6EeaODptpfqxjYA" name="commentaires">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwiJt6EeaODptpfqxjYA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwiZt6EeaODptpfqxjYA" value="1"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwj5t6EeaODptpfqxjYA" name="afficherConfirmationSuppressionCommentaires"/>
+        <ownedOperation xmi:id="_OaBwhZt6EeaODptpfqxjYA" name="afficherZoneCommentaire"/>
+        <ownedOperation xmi:id="_OaBwYpt6EeaODptpfqxjYA" name="colorerCommentaire"/>
+        <ownedOperation xmi:id="_OaBwW5t6EeaODptpfqxjYA" name="redigerCommentaire">
+          <ownedParameter xmi:id="_OaBwXJt6EeaODptpfqxjYA" name="arg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OaBwXZt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwkJt6EeaODptpfqxjYA" name="supprimerCommentaire">
+          <ownedParameter xmi:id="_OaBwkZt6EeaODptpfqxjYA" name="idCommentaire">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwk5t6EeaODptpfqxjYA" name="verifExistenceCommentaires">
+          <ownedParameter xmi:id="_OaBwlJt6EeaODptpfqxjYA" name="commentaires">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwlZt6EeaODptpfqxjYA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwlpt6EeaODptpfqxjYA" value="1"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OaBwl5t6EeaODptpfqxjYA" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwXpt6EeaODptpfqxjYA" name="verifieCaptcha">
+          <ownedParameter xmi:id="_OaBwX5t6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ShMH8Jt8EeaODptpfqxjYA" name="IEnseignants">
         <ownedOperation xmi:id="_OaBwMpt6EeaODptpfqxjYA" name="seConnecter">
           <ownedParameter xmi:id="_OaBwM5t6EeaODptpfqxjYA" name="login">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12793,6 +12974,11 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_OaBwYJt6EeaODptpfqxjYA" name="verifieConnexion">
+          <ownedParameter xmi:id="_OaBwYZt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
         <ownedOperation xmi:id="_OaBwOZt6EeaODptpfqxjYA" name="verifierMotDePasse">
           <ownedParameter xmi:id="_OaBwOpt6EeaODptpfqxjYA" name="login">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12804,23 +12990,16 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwPZt6EeaODptpfqxjYA" name="choisirGererQuestion"/>
-        <ownedOperation xmi:id="_OaBwPpt6EeaODptpfqxjYA" name="afficherListeUE" visibility="private"/>
-        <ownedOperation xmi:id="_OaBwP5t6EeaODptpfqxjYA" name="choisirUE">
-          <ownedParameter xmi:id="_OaBwQJt6EeaODptpfqxjYA" name="identifiantUE">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwQZt6EeaODptpfqxjYA" name="afficherListeChapitre"/>
-        <ownedOperation xmi:id="_OaBwQpt6EeaODptpfqxjYA" name="choisirChapitre">
-          <ownedParameter xmi:id="_OaBwQ5t6EeaODptpfqxjYA" name="listeChapitre" type="_OZK0kJt6EeaODptpfqxjYA">
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwRJt6EeaODptpfqxjYA" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwRZt6EeaODptpfqxjYA" value="1"/>
-          </ownedParameter>
-        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwMZt6EeaODptpfqxjYA" name="afficherFormulaireDeConnexion" visibility="private"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_VwWyoJt8EeaODptpfqxjYA" name="IQuestions">
         <ownedOperation xmi:id="_OaBwRpt6EeaODptpfqxjYA" name="afficherOptionsQuestion" visibility="private"/>
-        <ownedOperation xmi:id="_OaBwR5t6EeaODptpfqxjYA" name="choisirAjouterQuestion"/>
-        <ownedOperation xmi:id="_OaBwSJt6EeaODptpfqxjYA" name="afficherFormulaireAjout" visibility="private"/>
+        <ownedOperation xmi:id="_OaBweJt6EeaODptpfqxjYA" name="afficherQuestion">
+          <ownedParameter xmi:id="_OaBweZt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwdpt6EeaODptpfqxjYA" name="AfficheSolution"/>
         <ownedOperation xmi:id="_OaBwSZt6EeaODptpfqxjYA" name="ajouterQuestion">
           <ownedParameter xmi:id="_OaBwSpt6EeaODptpfqxjYA" name="idUE">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12833,54 +13012,9 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwT5t6EeaODptpfqxjYA" value="1"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwUJt6EeaODptpfqxjYA" name="ajouterUE">
-          <ownedParameter xmi:id="_OaBwUZt6EeaODptpfqxjYA" name="nomUE">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwUpt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwU5t6EeaODptpfqxjYA" name="modifierUE">
-          <ownedParameter xmi:id="_OaBwVJt6EeaODptpfqxjYA" name="modifier">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwVZt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwVpt6EeaODptpfqxjYA" name="verifExistenceUE">
-          <ownedParameter xmi:id="_OaBwV5t6EeaODptpfqxjYA" name="verif" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwWJt6EeaODptpfqxjYA" name="supprimerUE">
-          <ownedParameter xmi:id="_OaBwWZt6EeaODptpfqxjYA" name="supp">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwWpt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwW5t6EeaODptpfqxjYA" name="redigerCommentaire">
-          <ownedParameter xmi:id="_OaBwXJt6EeaODptpfqxjYA" name="arg">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwXZt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwXpt6EeaODptpfqxjYA" name="verifieCaptcha">
-          <ownedParameter xmi:id="_OaBwX5t6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwYJt6EeaODptpfqxjYA" name="verifieConnexion">
-          <ownedParameter xmi:id="_OaBwYZt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwYpt6EeaODptpfqxjYA" name="colorerCommentaire"/>
+        <ownedOperation xmi:id="_OaBwR5t6EeaODptpfqxjYA" name="choisirAjouterQuestion"/>
+        <ownedOperation xmi:id="_OaBwPZt6EeaODptpfqxjYA" name="choisirGererQuestion"/>
+        <ownedOperation xmi:id="_OaBwbpt6EeaODptpfqxjYA" name="poserQuestion"/>
         <ownedOperation xmi:id="_OaBwY5t6EeaODptpfqxjYA" name="remplirQuestionnaire">
           <ownedParameter xmi:id="_OaBwZJt6EeaODptpfqxjYA" name="nomUE">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12895,22 +13029,6 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwaJt6EeaODptpfqxjYA" name="verifNbQuestions">
-          <ownedParameter xmi:id="_OaBwaZt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwapt6EeaODptpfqxjYA" name="verifUE">
-          <ownedParameter xmi:id="_OaBwa5t6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwbJt6EeaODptpfqxjYA" name="verifChapitres">
-          <ownedParameter xmi:id="_OaBwbZt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwbpt6EeaODptpfqxjYA" name="poserQuestion"/>
         <ownedOperation xmi:id="_OaBwb5t6EeaODptpfqxjYA" name="repondreQuestion">
           <ownedParameter xmi:id="_OaBwcJt6EeaODptpfqxjYA" name="réponse">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12926,13 +13044,19 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwdpt6EeaODptpfqxjYA" name="AfficheSolution"/>
-        <ownedOperation xmi:id="_OaBwd5t6EeaODptpfqxjYA" name="demandeConnexion"/>
-        <ownedOperation xmi:id="_OaBweJt6EeaODptpfqxjYA" name="afficherQuestion">
-          <ownedParameter xmi:id="_OaBweZt6EeaODptpfqxjYA" name="res" direction="return">
+        <ownedOperation xmi:id="_OaBwmpt6EeaODptpfqxjYA" name="verifExistQuestion">
+          <ownedParameter xmi:id="_OaBwm5t6EeaODptpfqxjYA" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_OaBwaJt6EeaODptpfqxjYA" name="verifNbQuestions">
+          <ownedParameter xmi:id="_OaBwaZt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_YZoiAJt8EeaODptpfqxjYA" name="ICours">
+        <ownedOperation xmi:id="_OaBwPpt6EeaODptpfqxjYA" name="afficherListeUE" visibility="private"/>
         <ownedOperation xmi:id="_OaBwept6EeaODptpfqxjYA" name="ajouterChapitres">
           <ownedParameter xmi:id="_OaBwe5t6EeaODptpfqxjYA" name="chapitre">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -12941,9 +13065,23 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwfZt6EeaODptpfqxjYA" name="verifExistenceChapitres">
-          <ownedParameter xmi:id="_OaBwfpt6EeaODptpfqxjYA" name="res" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <ownedOperation xmi:id="_OaBwUJt6EeaODptpfqxjYA" name="ajouterUE">
+          <ownedParameter xmi:id="_OaBwUZt6EeaODptpfqxjYA" name="nomUE">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OaBwUpt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwQpt6EeaODptpfqxjYA" name="choisirChapitre">
+          <ownedParameter xmi:id="_OaBwQ5t6EeaODptpfqxjYA" name="listeChapitre" type="_OZK0kJt6EeaODptpfqxjYA">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwRJt6EeaODptpfqxjYA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwRZt6EeaODptpfqxjYA" value="1"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwP5t6EeaODptpfqxjYA" name="choisirUE">
+          <ownedParameter xmi:id="_OaBwQJt6EeaODptpfqxjYA" name="identifiantUE">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_OaBwf5t6EeaODptpfqxjYA" name="modifierChapitres">
@@ -12951,6 +13089,14 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="_OaBwgZt6EeaODptpfqxjYA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwU5t6EeaODptpfqxjYA" name="modifierUE">
+          <ownedParameter xmi:id="_OaBwVJt6EeaODptpfqxjYA" name="modifier">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OaBwVZt6EeaODptpfqxjYA" name="res" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
@@ -12962,61 +13108,40 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwhZt6EeaODptpfqxjYA" name="afficherZoneCommentaire"/>
-        <ownedOperation xmi:id="_OaBwhpt6EeaODptpfqxjYA" name="supprimerCommentaires">
-          <ownedParameter xmi:id="_OaBwh5t6EeaODptpfqxjYA" name="commentaires">
+        <ownedOperation xmi:id="_OaBwWJt6EeaODptpfqxjYA" name="supprimerUE">
+          <ownedParameter xmi:id="_OaBwWZt6EeaODptpfqxjYA" name="supp">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwiJt6EeaODptpfqxjYA" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwiZt6EeaODptpfqxjYA" value="1"/>
           </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwipt6EeaODptpfqxjYA" name="confirmerSuppression">
-          <ownedParameter xmi:id="_OaBwi5t6EeaODptpfqxjYA" name="commentaires">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwjJt6EeaODptpfqxjYA" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwjZt6EeaODptpfqxjYA" value="1"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwjpt6EeaODptpfqxjYA" name="result" direction="return">
+          <ownedParameter xmi:id="_OaBwWpt6EeaODptpfqxjYA" name="res" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwj5t6EeaODptpfqxjYA" name="afficherConfirmationSuppressionCommentaires"/>
-        <ownedOperation xmi:id="_OaBwkJt6EeaODptpfqxjYA" name="supprimerCommentaire">
-          <ownedParameter xmi:id="_OaBwkZt6EeaODptpfqxjYA" name="idCommentaire">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OaBwkpt6EeaODptpfqxjYA" name="afficherConfirmationSuppression"/>
-        <ownedOperation xmi:id="_OaBwk5t6EeaODptpfqxjYA" name="verifExistenceCommentaires">
-          <ownedParameter xmi:id="_OaBwlJt6EeaODptpfqxjYA" name="commentaires">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaBwlZt6EeaODptpfqxjYA" value="*"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaBwlpt6EeaODptpfqxjYA" value="1"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_OaBwl5t6EeaODptpfqxjYA" name="result" direction="return">
+        <ownedOperation xmi:id="_OaBwbJt6EeaODptpfqxjYA" name="verifChapitres">
+          <ownedParameter xmi:id="_OaBwbZt6EeaODptpfqxjYA" name="res" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwmJt6EeaODptpfqxjYA" name="afficherMessageErreur">
-          <ownedParameter xmi:id="_OaBwmZt6EeaODptpfqxjYA" name="notice">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedOperation xmi:id="_OaBwfZt6EeaODptpfqxjYA" name="verifExistenceChapitres">
+          <ownedParameter xmi:id="_OaBwfpt6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_OaBwmpt6EeaODptpfqxjYA" name="verifExistQuestion">
-          <ownedParameter xmi:id="_OaBwm5t6EeaODptpfqxjYA" name="Parameter1" direction="return">
+        <ownedOperation xmi:id="_OaBwVpt6EeaODptpfqxjYA" name="verifExistenceUE">
+          <ownedParameter xmi:id="_OaBwV5t6EeaODptpfqxjYA" name="verif" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_OaBwapt6EeaODptpfqxjYA" name="verifUE">
+          <ownedParameter xmi:id="_OaBwa5t6EeaODptpfqxjYA" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OaBwQZt6EeaODptpfqxjYA" name="afficherListeChapitre"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMJt6EeaODptpfqxjYA" memberEnd="_OZKNhJt6EeaODptpfqxjYA _OZKNjZt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMZt6EeaODptpfqxjYA" memberEnd="_OZKNkJt6EeaODptpfqxjYA _OZK0kpt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaLhMpt6EeaODptpfqxjYA" memberEnd="_OZK0lZt6EeaODptpfqxjYA _OZLbpZt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQJt6EeaODptpfqxjYA" memberEnd="_OZLbopt6EeaODptpfqxjYA _OZMCsZt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQZt6EeaODptpfqxjYA" memberEnd="_OZMCtJt6EeaODptpfqxjYA _OZLbqJt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQpt6EeaODptpfqxjYA" memberEnd="_OZMCu5t6EeaODptpfqxjYA _OZKNgZt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIQ5t6EeaODptpfqxjYA" memberEnd="_OZMCwZt6EeaODptpfqxjYA _OaBJJ5t6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMIRJt6EeaODptpfqxjYA" memberEnd="_OZK0mJt6EeaODptpfqxjYA _OZMpwpt6EeaODptpfqxjYA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OaMvUJt6EeaODptpfqxjYA" memberEnd="_OaBJIpt6EeaODptpfqxjYA _OZMpx5t6EeaODptpfqxjYA"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_4WeVQJuAEeahoODZduyQOw" name="ICoursSolo"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ch944JuBEeahoODZduyQOw" name="ICommentaire"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_JJYRwJuBEeahoODZduyQOw" name="IEnseignant"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_N_Y-cJuBEeahoODZduyQOw" name="IQuestion"/>
     </packagedElement>
     <profileApplication xmi:id="_7Vvm9Jt5EeaODptpfqxjYA">
       <eAnnotations xmi:id="_7Vvm9Zt5EeaODptpfqxjYA" source="http://www.eclipse.org/uml2/2.0.0/UML">
