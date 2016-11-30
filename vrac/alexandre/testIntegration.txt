@@ -1,0 +1,7 @@
+co.supprimerCommentaire({001, 002, 003})
+
+co.afficherConfirmationSuppressionCommentaires()
+
+co.redigerCommentaire("test commentaire")
+	->true
+	
