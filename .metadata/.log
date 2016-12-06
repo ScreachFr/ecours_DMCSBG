@@ -1,0 +1,132 @@
+
+!ENTRY org.eclipse.core.resources 4 568 2016-12-05 15:24:19.277
+!MESSAGE Impossible d'écrire les métadonnées pour '/'.
+!STACK 0
+java.io.FileNotFoundException: /users/nfs/Etu3/3600273/IL/git2/ecours_DMCSBG/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap (Aucun fichier ou dossier de ce type)
+	at java.io.FileOutputStream.open(FileOutputStream.java:286)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:226)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:144)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1745)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-12-05 15:24:32.632
+!MESSAGE Erreur lors de la sauvegarde de l'espace de travail
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-12-05 15:24:32.634
+!MESSAGE Erreur lors de la sauvegarde de l'état de l'espace de travail.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-12-05 15:24:32.634
+!MESSAGE Impossible d'écrire les métadonnées de l'espace de travail '/users/nfs/Etu3/3600273/IL/git2/ecours_DMCSBG/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: /users/nfs/Etu3/3600273/IL/git2/ecours_DMCSBG/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree (Aucun fichier ou dossier de ce type)
+	at java.io.FileOutputStream.open(FileOutputStream.java:286)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:226)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:173)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1386)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1169)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2344)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY com.ibm.xtools.emf.index 4 10 2016-12-05 15:24:34.434
+!MESSAGE Echec de la sauvegarde du cache /users/nfs/Etu3/3600273/IL/git2/ecours_DMCSBG/.metadata/.plugins/com.ibm.xtools.emf.index/v2/uri_cache
+!STACK 0
+java.io.FileNotFoundException: /users/nfs/Etu3/3600273/IL/git2/ecours_DMCSBG/.metadata/.plugins/com.ibm.xtools.emf.index/v2/uri_cache (Aucun fichier ou dossier de ce type)
+	at java.io.FileOutputStream.open(FileOutputStream.java:286)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:226)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:112)
+	at com.ibm.xtools.emf.index.internal.lucene.LuceneCacheUtil.writeCache(LuceneCacheUtil.java:347)
+	at com.ibm.xtools.emf.index.internal.lucene.IndexStore.stop(IndexStore.java:903)
+	at com.ibm.xtools.emf.index.internal.lucene.DefaultLuceneIndexStoreFactory.stop(DefaultLuceneIndexStoreFactory.java:32)
+	at com.ibm.xtools.emf.index.internal.plugin.IndexPlugin$Implementation.stop(IndexPlugin.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(AccessController.java:559)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:785)
+!SESSION 2016-12-05 15:25:01.514 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Linux amd64-64 Compressed References 20150630_255633 (JIT enabled, AOT enabled)
+J9VM - R28_jvm.28_20150630_1742_B255633
+JIT  - tr.r14.java_20150625_95081.01
+GC   - R28_jvm.28_20150630_1742_B255633_CMPRSS
+J9CL - 20150630_255633
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-05 15:25:14.335
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.213
+!MESSAGE System property http.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.216
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.218
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.219
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.221
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-05 15:25:15.222
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.jface 2 0 2016-12-05 15:25:19.142
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-05 15:25:19.142
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(com.ibm.xtools.transform.ui.runLastExecutedCommand,Exécuter la dernière transformation,
+		,
+		Category(com.ibm.xtools.transform.ui.transformCategory,Transformations,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d1e63d23,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ce66c4f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-05 15:25:19.142
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copier le résultat,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,Vue des résultats SQL,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a1a6af1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10d01009,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
