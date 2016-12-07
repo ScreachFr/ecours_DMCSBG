@@ -10467,7 +10467,13 @@
             <message xmi:id="_YXpBwLroEea5m_Cxr_jcGw" name="afficherOptionsQuestion" receiveEvent="_YXqP4LroEea5m_Cxr_jcGw" sendEvent="_YXpo0LroEea5m_Cxr_jcGw" connector="_RJkRgbroEea5m_Cxr_jcGw"/>
             <message xmi:id="_YXq28broEea5m_Cxr_jcGw" name="afficherOptionsQuestion" messageSort="reply" receiveEvent="_YXq28rroEea5m_Cxr_jcGw" sendEvent="_YXq28LroEea5m_Cxr_jcGw" connector="_RJkRgbroEea5m_Cxr_jcGw"/>
             <message xmi:id="_jZSxULroEea5m_Cxr_jcGw" name="afficherQuestion" receiveEvent="_jZTYYbroEea5m_Cxr_jcGw" sendEvent="_jZTYYLroEea5m_Cxr_jcGw" connector="_GiT-8broEea5m_Cxr_jcGw"/>
-            <message xmi:id="_jZUmgLroEea5m_Cxr_jcGw" name="afficherQuestion" messageSort="reply" receiveEvent="_jZUmgbroEea5m_Cxr_jcGw" sendEvent="_jZT_cbroEea5m_Cxr_jcGw" connector="_GiT-8broEea5m_Cxr_jcGw"/>
+            <message xmi:id="_jZUmgLroEea5m_Cxr_jcGw" name="afficherQuestion" messageSort="reply" receiveEvent="_jZUmgbroEea5m_Cxr_jcGw" sendEvent="_jZT_cbroEea5m_Cxr_jcGw" connector="_GiT-8broEea5m_Cxr_jcGw">
+              <argument xmi:type="uml:OpaqueExpression" xmi:id="_5bAGILx2EealI8R_O4LGpQ">
+                <eAnnotations xmi:id="_5bFlsLx2EealI8R_O4LGpQ" source="Parameter" references="_OaBweZt6EeaODptpfqxjYA"/>
+                <language></language>
+                <body>true</body>
+              </argument>
+            </message>
             <message xmi:id="_k5f_0LroEea5m_Cxr_jcGw" name="ajouterQuestion" receiveEvent="_k5gm4broEea5m_Cxr_jcGw" sendEvent="_k5gm4LroEea5m_Cxr_jcGw" connector="_GiT-8broEea5m_Cxr_jcGw">
               <argument xmi:type="uml:OpaqueExpression" xmi:id="_Q2G5MLvIEeacd5VddlmH_g">
                 <eAnnotations xmi:id="_Q2HgQLvIEeacd5VddlmH_g" source="Parameter" references="_OaBwSpt6EeaODptpfqxjYA"/>
