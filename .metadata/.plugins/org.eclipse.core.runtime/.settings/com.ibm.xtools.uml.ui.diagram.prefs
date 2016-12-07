@@ -1,3 +1,4 @@
+DefaultTheme/DefaultTheme=Par d\u00E9faut
 EdgeApps/Brown\ conn/notation.LineStyle.lineColor=5458266
 EdgeApps/Brown\ rectilinear/notation.LineStyle.lineColor=5458266
 EdgeApps/Brown\ rectilinear/notation.RoundedCornersStyle.roundedBendpointsRadius=4
@@ -135,6 +136,10 @@ ShapeApps/Rouge\ avec\ bordure\ rouge/notation.FontStyle.fontHeight=9
 ShapeApps/Rouge\ avec\ bordure\ rouge/notation.LineStyle.lineColor=8421631
 ShapeApps/Rouge/notation.FillStyle.fillColor=14277119
 ShapeApps/Rouge/notation.LineStyle.lineColor=12632258
+Shapes.compartmentStereotypeStyle=1
+Shapes.showSignature=true
+Shapes.stereotypeStyle=1
+Shapes.visibilityStyle=1
 Themes/Brown/Edge=Brown rectilinear
 Themes/Brown/Shape=Brown 1
 Themes/Brown/com.ibm.xtools.uml.activity=Brown 3
